@@ -25,5 +25,4 @@ def change_nfc_all_dir(dirname):
         if os.path.isdir(next_dir):
             change_nfc_all_dir(next_dir)
 
-#change_nfc_all_dir("C:\\Users\\ibmuser1\\Box\\KB Starbanking Platform PoC 제안\\02. 제안서작성")
-change_nfc_all_dir("C:/Users/ibmuser1/Desktop/KB_StarBanking_PoC")
+change_nfc_all_dir("C:/Users/user1/Desktop/TestDir")
